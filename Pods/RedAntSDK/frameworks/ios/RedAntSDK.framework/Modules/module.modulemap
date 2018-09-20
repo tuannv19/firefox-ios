@@ -1,0 +1,11 @@
+framework module RedAntSDK {
+  umbrella header "RedAntSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module RedAntSDK.Swift {
+    header "RedAntSDK-Swift.h"
+    requires objc
+}

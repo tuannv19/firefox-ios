@@ -1,0 +1,32 @@
+PODS:
+  - CocoaAsyncSocket (7.6.3)
+  - KissXML (5.2.3)
+  - RedAntSDK (1.0):
+    - CocoaAsyncSocket
+    - KissXML
+
+DEPENDENCIES:
+  - RedAntSDK (from `https://github.com/toffs-dev/M88-SSClient-iOS-SDK.git`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CocoaAsyncSocket
+    - KissXML
+
+EXTERNAL SOURCES:
+  RedAntSDK:
+    :git: https://github.com/toffs-dev/M88-SSClient-iOS-SDK.git
+
+CHECKOUT OPTIONS:
+  RedAntSDK:
+    :commit: 1dc69827c6a55dbafac2f084447aece959c53de7
+    :git: https://github.com/toffs-dev/M88-SSClient-iOS-SDK.git
+
+SPEC CHECKSUMS:
+  CocoaAsyncSocket: eafaa68a7e0ec99ead0a7b35015e0bf25d2c8987
+  KissXML: 09f88ff8161fd058d67b70740b8b516687b52823
+  RedAntSDK: 21d09049341dda97db0ae1aefd63d2928771f149
+
+PODFILE CHECKSUM: 65b6d592ed5514543c75cac1cf5f2aa690c44578
+
+COCOAPODS: 1.5.3

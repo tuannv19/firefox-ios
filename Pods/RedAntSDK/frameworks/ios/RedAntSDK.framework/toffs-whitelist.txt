@@ -1,0 +1,17 @@
+(^|\.)lo2o\.com$
+(^|\.)ip\.cn$
+(^|\.)toffstech\.com$
+(^|\.)iplocation\.net$
+(^|\.)ipinfo\.info$
+(^|\.)whatsmyip\.org$
+(^|\.)dropbox\.com$
+(^|\.)youtube\.com$
+(^|\.)google\.com$
+(^|\.)google\.com\.hk$
+(^|\.)dropboxstatic\.com$
+(^|\.)ytimg\.com$
+(^|\.)googlevideo\.com$
+(^|\.)googleadservices\.com$
+(^|\.)gstatic\.com$
+(^|\.)google\.cn$
+(^|\.)googleapis\.com$

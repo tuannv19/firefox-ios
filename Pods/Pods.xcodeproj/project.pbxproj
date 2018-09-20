@@ -1,0 +1,2737 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		050D2469EB1C3EA5BE63FC16E2F45E0D /* DDXMLDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CCFF9DF93D1E0FDB4B400B2E45C78BC /* DDXMLDocument.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		054E531125EA6D840536D3B48CB8B68E /* Pods-Tunnel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7AA6F01B8243CF1D3AD8504DEDDC83 /* Pods-Tunnel-dummy.m */; };
+		0D8050A2FAAC39B80F3CC317107D1EF8 /* DDXMLElementAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EE6B6EEB22B50487EE34C81991847B3 /* DDXMLElementAdditions.m */; };
+		14093D343551BEE28E57ED998149CE97 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A847C3B26F9C9E99A5ACEACF501F86DD /* CFNetwork.framework */; };
+		1A420E8A23F0FAED6FDFAE668E566090 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 262ECF904E7C4825E0F1B0A450319465 /* GCDAsyncSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1B871A9FFAD7B4C110A4E62324C96BDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E3725257C79D0C80F87B9E2B291C17A /* Foundation.framework */; };
+		1C1293129FF55E90B064CFE4D05AE189 /* KissXML-iOS12.0-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D7AD57F0437BADA436FB43D6943669E /* KissXML-iOS12.0-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DA65055CE4FC613915D62554DAC52A9 /* DDXMLElementAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EE6B6EEB22B50487EE34C81991847B3 /* DDXMLElementAdditions.m */; };
+		20DA25D485580E4D59E2D9F382324A87 /* DDXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A7DEF742123137FF3CEE08AA131873 /* DDXMLDocument.m */; };
+		2490669285F6071CE02A1DC471D94902 /* DDXMLPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F45EA1E6953EB1312B685BACFF002D0 /* DDXMLPrivate.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		282FE63787947820F9F497F779740CB5 /* DDXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DA704E7FC06549A510A88589A037E00 /* DDXMLElement.m */; };
+		2946CCB8B1675CFFCC1DAE0C7B113481 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 262ECF904E7C4825E0F1B0A450319465 /* GCDAsyncSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2F5C5517C5BF55D02C0F8937B4AE09EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E3725257C79D0C80F87B9E2B291C17A /* Foundation.framework */; };
+		2FCACEB0D96947315D9D95A798DE1EA9 /* NSString+DDXML.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AFA6C2102D934B9EB62B48260E791F6 /* NSString+DDXML.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3AEBE8AD23F464B3018911346BBE0FD0 /* KissXML-iOS10.3-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B943F5B2426E58FBF49504D49E5F12E9 /* KissXML-iOS10.3-dummy.m */; };
+		3E7BE3D0A4DB458BA157B6CE4E5B4FDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E3725257C79D0C80F87B9E2B291C17A /* Foundation.framework */; };
+		471A46DD5D66398C51299F2DBAFD54CB /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = C1E718663C3394A66A554111ADDA48D3 /* GCDAsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48BE0F9487C6990E2F0C0E98160F355D /* Pods-ClientTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A09720E15239FC41C8232C7B9BDBDF4 /* Pods-ClientTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B849B569EB357FCB20E6E89552DEA4A /* NSString+DDXML.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AFA6C2102D934B9EB62B48260E791F6 /* NSString+DDXML.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D16D03004E3F8CEB3DB16AB237B8DCA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E3725257C79D0C80F87B9E2B291C17A /* Foundation.framework */; };
+		561F3E9A5006DBF9BB854D57E26CBD50 /* DDXMLDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CCFF9DF93D1E0FDB4B400B2E45C78BC /* DDXMLDocument.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		58DC0D4B2BA2531794AEDC279039CD14 /* DDXMLElementAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 452FA5DB70A0DB426DD52CD001997C0A /* DDXMLElementAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B7E9D4CACDF6041939E6DAD85780570 /* NSString+DDXML.m in Sources */ = {isa = PBXBuildFile; fileRef = C12264A331DCCF952014A1491007F22B /* NSString+DDXML.m */; };
+		61FE6EFD2066876394D7C4AD9ECBF991 /* Pods-Client-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B6D94ADC074F02D436FF88814C684311 /* Pods-Client-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64BEC331BADDB94CAC04957E00F2237C /* KissXML.h in Headers */ = {isa = PBXBuildFile; fileRef = 42CCAACF3D0C30FE68FBC038A23B01A1 /* KissXML.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64F4029569B8D0240F5410B58DAF3292 /* DDXMLElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 218125A959299878A8F5EEDFB148BB25 /* DDXMLElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B32325B74F63EF181D0C3BC9BE9839D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A847C3B26F9C9E99A5ACEACF501F86DD /* CFNetwork.framework */; };
+		6FDBB50B6A10F694618C99788ACD38FF /* NSString+DDXML.m in Sources */ = {isa = PBXBuildFile; fileRef = C12264A331DCCF952014A1491007F22B /* NSString+DDXML.m */; };
+		72FDA2054EDA9357A916DB4B4286914D /* CocoaAsyncSocket-iOS10.3-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AEDF22A72034B04261BD0CBFD367316 /* CocoaAsyncSocket-iOS10.3-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73B5FCA6646F32C2875CFC8F0925E9F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E3725257C79D0C80F87B9E2B291C17A /* Foundation.framework */; };
+		7527A63905EF492F4F75D735211D3AB1 /* KissXML-iOS12.0-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADD0E43E5B108464B3A95D4DD5CE33B /* KissXML-iOS12.0-dummy.m */; };
+		75E7FC1BF905FE2A8945919A555842BD /* DDXMLNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B071DCEC95C540B9B82B7E1F4678C77 /* DDXMLNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7DD1E2A3EE560AF589CDECA852916911 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50F6DD994291AA39A94BEECAFAF0D785 /* Security.framework */; };
+		7E0C52396C20FAB048CDE97850F03091 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E3725257C79D0C80F87B9E2B291C17A /* Foundation.framework */; };
+		83766252E17C693B54562CE5C69B0546 /* Pods-ClientTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 554FDE24E9BA3B2F2B76A906CE398D01 /* Pods-ClientTests-dummy.m */; };
+		90AAC4BF412C053F0D6AB07504F1D54B /* DDXML.h in Headers */ = {isa = PBXBuildFile; fileRef = 17539480593B7FD9411A9B6A28894897 /* DDXML.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9397245E7117A3B18CB54F57B8296652 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 67475D402307B547890DC5761D327FC6 /* GCDAsyncUdpSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		94C375757BFDF505620ED9588E5B854C /* CocoaAsyncSocket-iOS12.0-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 794FE532136D150CCFACC150831B6E88 /* CocoaAsyncSocket-iOS12.0-dummy.m */; };
+		95FECDAE05FD26229AB833BF9D6A721A /* DDXMLPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F45EA1E6953EB1312B685BACFF002D0 /* DDXMLPrivate.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9CB6E66405D8A7B97FD1A8112D9FB592 /* Pods-Tunnel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C9F9BE3E6783D219B4D6CCEA4D02CEB8 /* Pods-Tunnel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6339E14DCF6D30E6A024542D7606A64 /* DDXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AAA896236923C404DDFE65BCE3FBCC /* DDXMLNode.m */; };
+		A78C6B803416EBCCE9CC113D1901D203 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E3725257C79D0C80F87B9E2B291C17A /* Foundation.framework */; };
+		A8489437BA702208BCA469D74B806AE4 /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = C1E718663C3394A66A554111ADDA48D3 /* GCDAsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD23BD8E204142A1432785896241544E /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 67475D402307B547890DC5761D327FC6 /* GCDAsyncUdpSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		AE016873508573CD64AED16B9F2E118E /* GCDAsyncUdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CE0CFF9D6022136558098AF88887F65 /* GCDAsyncUdpSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAB4FA359C66F1356CFAE9CE5780864F /* CocoaAsyncSocket-iOS12.0-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CC5739C659EFC4DF3CE5D27397267001 /* CocoaAsyncSocket-iOS12.0-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C56CE179C3095A9A9E02DB3E328FDB23 /* DDXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A7DEF742123137FF3CEE08AA131873 /* DDXMLDocument.m */; };
+		C9275ED700D8938EB2C1A683AC483F95 /* DDXMLElementAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 452FA5DB70A0DB426DD52CD001997C0A /* DDXMLElementAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA896E46F99C1BF7BBDAFC1E9B6453D9 /* Pods-Client-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E672EF5269A3B901C2A38DF1B10A2E4A /* Pods-Client-dummy.m */; };
+		CF0E5A43F216C7024919BF219DCA549A /* KissXML.h in Headers */ = {isa = PBXBuildFile; fileRef = 42CCAACF3D0C30FE68FBC038A23B01A1 /* KissXML.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF9618630C467005C8626F76B15501F0 /* DDXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AAA896236923C404DDFE65BCE3FBCC /* DDXMLNode.m */; };
+		D0FBE9395A9BD6112722A8241B2E215A /* DDXML.h in Headers */ = {isa = PBXBuildFile; fileRef = 17539480593B7FD9411A9B6A28894897 /* DDXML.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D916EDC53E0A49F0C4BFA20DA7D8A54F /* KissXML-iOS10.3-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DC6504F9A5A934372BD7FB289F84D967 /* KissXML-iOS10.3-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5EA9A8030F387D284F92EA0CF44E959 /* DDXMLElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 218125A959299878A8F5EEDFB148BB25 /* DDXMLElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA081A169902E3CFF523803928FAF6D0 /* GCDAsyncUdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CE0CFF9D6022136558098AF88887F65 /* GCDAsyncUdpSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EDD66516BC246B470B1CA9E75F78847C /* CocoaAsyncSocket-iOS10.3-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C56991B4C82A6766FAB481BDD34EC3D2 /* CocoaAsyncSocket-iOS10.3-dummy.m */; };
+		F1B24D0DD5192BD878E7F6DBE64EB44F /* DDXMLNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B071DCEC95C540B9B82B7E1F4678C77 /* DDXMLNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F22195C270E9201CFDAB61EADE465A44 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50F6DD994291AA39A94BEECAFAF0D785 /* Security.framework */; };
+		F8B735A989B64B7222F12B6CDD986596 /* DDXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DA704E7FC06549A510A88589A037E00 /* DDXMLElement.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0476E274FE2C0C767C61AA8D4F60AD80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EEF5040CD5D106EFCB7845B2D88B081;
+			remoteInfo = "KissXML-iOS10.3";
+		};
+		04BF112BB07EF223A53744EBF40A6BB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAAF10FD0950431FEE03601BA2150897;
+			remoteInfo = "KissXML-iOS12.0";
+		};
+		4103D1DCA6BF068C58D1CD757FC59C21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FBD0D7038A1FD07437E4D22E74A383E;
+			remoteInfo = "CocoaAsyncSocket-iOS10.3";
+		};
+		505815323379EE79A95B7263F31FD52C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B99484990A0B6A7BB5D138B404470C5;
+			remoteInfo = "CocoaAsyncSocket-iOS12.0";
+		};
+		701F4743EACAFE510BB5F13743926818 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B726E6666DCF75A0C8C7082CF8780A1;
+			remoteInfo = "Pods-Client";
+		};
+		92175817DF40AAB2F62B3CFBB5C13A1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAAF10FD0950431FEE03601BA2150897;
+			remoteInfo = "KissXML-iOS12.0";
+		};
+		B1D05154D605B509C9581D71FD6567C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B99484990A0B6A7BB5D138B404470C5;
+			remoteInfo = "CocoaAsyncSocket-iOS12.0";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		020361E37C329153BDCFBE9D6BABE857 /* CocoaAsyncSocket-iOS10.3-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-iOS10.3-prefix.pch"; sourceTree = "<group>"; };
+		03A110CA6063632023C7778009485E56 /* CocoaAsyncSocket-iOS12.0-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CocoaAsyncSocket-iOS12.0-prefix.pch"; path = "../CocoaAsyncSocket-iOS12.0/CocoaAsyncSocket-iOS12.0-prefix.pch"; sourceTree = "<group>"; };
+		0696F26F9EF0A6309DCE4EC47ADE5AFB /* Pods-Tunnel.firefoxbeta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tunnel.firefoxbeta.xcconfig"; sourceTree = "<group>"; };
+		06EDF0193D134B0905F6C8FB77817B6F /* CocoaAsyncSocket-iOS12.0.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "CocoaAsyncSocket-iOS12.0.modulemap"; path = "../CocoaAsyncSocket-iOS12.0/CocoaAsyncSocket-iOS12.0.modulemap"; sourceTree = "<group>"; };
+		08093B2061A19642C16B16FDA1E66D58 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AFA6C2102D934B9EB62B48260E791F6 /* NSString+DDXML.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+DDXML.h"; path = "KissXML/Categories/NSString+DDXML.h"; sourceTree = "<group>"; };
+		0CAF327D822A194737B8E18AC9FC6423 /* Pods-Client.firefox.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Client.firefox.xcconfig"; sourceTree = "<group>"; };
+		115D143258324B76364EE11D039AF8B5 /* Pods_Tunnel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Tunnel.framework; path = "Pods-Tunnel.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		117CDC3279B1325B49B3DD6481E4A41C /* KissXML.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KissXML.framework; path = "KissXML-iOS12.0.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		124538BB9EFCDC7E25D8A546878F712A /* Pods-Client-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Client-acknowledgements.markdown"; sourceTree = "<group>"; };
+		16E0865E91EEA7969A8BE6279F4ACAE4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17539480593B7FD9411A9B6A28894897 /* DDXML.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDXML.h; path = KissXML/DDXML.h; sourceTree = "<group>"; };
+		1A70203CCA7571E28669C98DF57B6ED3 /* Pods-ClientTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ClientTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1B58785D16976C1C33184EAA73B50E2E /* Pods-Tunnel.firefox.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tunnel.firefox.xcconfig"; sourceTree = "<group>"; };
+		1E2558A0BC62DA1125E6636FE23B2CBE /* CocoaAsyncSocket-iOS10.3.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "CocoaAsyncSocket-iOS10.3.xcconfig"; sourceTree = "<group>"; };
+		218125A959299878A8F5EEDFB148BB25 /* DDXMLElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDXMLElement.h; path = KissXML/DDXMLElement.h; sourceTree = "<group>"; };
+		262ECF904E7C4825E0F1B0A450319465 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncSocket.m; path = Source/GCD/GCDAsyncSocket.m; sourceTree = "<group>"; };
+		27790D71C714A75F58FF36ED90368130 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../KissXML-iOS12.0/Info.plist"; sourceTree = "<group>"; };
+		2BA8DECF1B1FA5DBD25451D5C038BF8A /* Pods-Tunnel.fennec_enterprise.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tunnel.fennec_enterprise.xcconfig"; sourceTree = "<group>"; };
+		2F1DDEEEE7C38E36CF4747789D3DFA69 /* Pods-Client-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Client-resources.sh"; sourceTree = "<group>"; };
+		3A09720E15239FC41C8232C7B9BDBDF4 /* Pods-ClientTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ClientTests-umbrella.h"; sourceTree = "<group>"; };
+		3A54E60AA98F1EF929E17CA96C2A4FEF /* Pods-Client.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Client.release.xcconfig"; sourceTree = "<group>"; };
+		3ADD0E43E5B108464B3A95D4DD5CE33B /* KissXML-iOS12.0-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "KissXML-iOS12.0-dummy.m"; path = "../KissXML-iOS12.0/KissXML-iOS12.0-dummy.m"; sourceTree = "<group>"; };
+		407E818C12CFD67C8C748C3744CAA5E4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42CCAACF3D0C30FE68FBC038A23B01A1 /* KissXML.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KissXML.h; path = KissXML/KissXML.h; sourceTree = "<group>"; };
+		432AA88C314D64685FDCE0B201C1EC56 /* Pods-ClientTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ClientTests-resources.sh"; sourceTree = "<group>"; };
+		452FA5DB70A0DB426DD52CD001997C0A /* DDXMLElementAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDXMLElementAdditions.h; path = KissXML/Additions/DDXMLElementAdditions.h; sourceTree = "<group>"; };
+		478DBE60FBD96E42F951788DD66D895E /* CocoaAsyncSocket-iOS12.0.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "CocoaAsyncSocket-iOS12.0.xcconfig"; path = "../CocoaAsyncSocket-iOS12.0/CocoaAsyncSocket-iOS12.0.xcconfig"; sourceTree = "<group>"; };
+		4CE0CFF9D6022136558098AF88887F65 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncUdpSocket.h; path = Source/GCD/GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		4D702C6BF951139D468A3FE790990C34 /* CocoaAsyncSocket-iOS10.3.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "CocoaAsyncSocket-iOS10.3.modulemap"; sourceTree = "<group>"; };
+		4F45EA1E6953EB1312B685BACFF002D0 /* DDXMLPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDXMLPrivate.h; path = KissXML/Private/DDXMLPrivate.h; sourceTree = "<group>"; };
+		509B2B9150133D612EBBED4060865E0B /* KissXML-iOS10.3.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "KissXML-iOS10.3.xcconfig"; sourceTree = "<group>"; };
+		50F6DD994291AA39A94BEECAFAF0D785 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		554FDE24E9BA3B2F2B76A906CE398D01 /* Pods-ClientTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ClientTests-dummy.m"; sourceTree = "<group>"; };
+		5EC591FC2586E0EB021D27588A205190 /* KissXML.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KissXML.framework; path = "KissXML-iOS10.3.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EE6B6EEB22B50487EE34C81991847B3 /* DDXMLElementAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDXMLElementAdditions.m; path = KissXML/Additions/DDXMLElementAdditions.m; sourceTree = "<group>"; };
+		6117348AA49DA35FB52D5F016D1409CB /* Pods-Client.fennec_enterprise.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Client.fennec_enterprise.xcconfig"; sourceTree = "<group>"; };
+		61FC0F2AD727DB05E4694D0FCB02CBCD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67475D402307B547890DC5761D327FC6 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncUdpSocket.m; path = Source/GCD/GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		6B65DE991E55F20829B585C1A39E5BA1 /* Pods-Tunnel-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tunnel-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6D35BC3252E8FC5E654767DA2CA0C8A9 /* Pods-ClientTests.fennec_enterprise.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ClientTests.fennec_enterprise.xcconfig"; sourceTree = "<group>"; };
+		6D7AD57F0437BADA436FB43D6943669E /* KissXML-iOS12.0-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "KissXML-iOS12.0-umbrella.h"; path = "../KissXML-iOS12.0/KissXML-iOS12.0-umbrella.h"; sourceTree = "<group>"; };
+		6F32820B631CF2959717A80F471BA9A0 /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CocoaAsyncSocket.framework; path = "CocoaAsyncSocket-iOS12.0.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76AAA896236923C404DDFE65BCE3FBCC /* DDXMLNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDXMLNode.m; path = KissXML/DDXMLNode.m; sourceTree = "<group>"; };
+		794FE532136D150CCFACC150831B6E88 /* CocoaAsyncSocket-iOS12.0-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CocoaAsyncSocket-iOS12.0-dummy.m"; path = "../CocoaAsyncSocket-iOS12.0/CocoaAsyncSocket-iOS12.0-dummy.m"; sourceTree = "<group>"; };
+		7AEDF22A72034B04261BD0CBFD367316 /* CocoaAsyncSocket-iOS10.3-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-iOS10.3-umbrella.h"; sourceTree = "<group>"; };
+		7B071DCEC95C540B9B82B7E1F4678C77 /* DDXMLNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDXMLNode.h; path = KissXML/DDXMLNode.h; sourceTree = "<group>"; };
+		7F435C00916118F1CED13AADF9484C6D /* ShadowPath.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ShadowPath.framework; path = frameworks/ios/ShadowPath.framework; sourceTree = "<group>"; };
+		813812A08CF5CD974E969FA39CE3FB47 /* KissXML-iOS12.0-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "KissXML-iOS12.0-prefix.pch"; path = "../KissXML-iOS12.0/KissXML-iOS12.0-prefix.pch"; sourceTree = "<group>"; };
+		82A7DEF742123137FF3CEE08AA131873 /* DDXMLDocument.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDXMLDocument.m; path = KissXML/DDXMLDocument.m; sourceTree = "<group>"; };
+		885B85ED312B331CD54ECFB32FCADACD /* Pods-Tunnel-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tunnel-acknowledgements.plist"; sourceTree = "<group>"; };
+		8C01386384A185D0E13B2B40B4F08733 /* Pods-ClientTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ClientTests-frameworks.sh"; sourceTree = "<group>"; };
+		8DA704E7FC06549A510A88589A037E00 /* DDXMLElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDXMLElement.m; path = KissXML/DDXMLElement.m; sourceTree = "<group>"; };
+		930D2EC895A2F9BE2B887265EF810D17 /* KissXML-iOS10.3.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "KissXML-iOS10.3.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9707B6ED51EBB104D3CB5013FC803450 /* Pods-Tunnel.fennec.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tunnel.fennec.xcconfig"; sourceTree = "<group>"; };
+		99795A99B85F65A5E1EA8B4A65EBAF1B /* Pods-Client.firefoxbeta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Client.firefoxbeta.xcconfig"; sourceTree = "<group>"; };
+		9CCFF9DF93D1E0FDB4B400B2E45C78BC /* DDXMLDocument.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDXMLDocument.h; path = KissXML/DDXMLDocument.h; sourceTree = "<group>"; };
+		9E3725257C79D0C80F87B9E2B291C17A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		A017D6CB8420E9754962C279ACBF9C80 /* Pods-Tunnel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tunnel.release.xcconfig"; sourceTree = "<group>"; };
+		A3F568818D0D21B03494C83B98DCE2E5 /* Pods-Client.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Client.modulemap"; sourceTree = "<group>"; };
+		A847C3B26F9C9E99A5ACEACF501F86DD /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		A9440A4F8C41F52611FCB6C6FDF083C9 /* KissXML-iOS12.0.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "KissXML-iOS12.0.modulemap"; path = "../KissXML-iOS12.0/KissXML-iOS12.0.modulemap"; sourceTree = "<group>"; };
+		A98FA14DD9AEA45F20A676BEEEEDD6AB /* RedAntSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RedAntSDK.framework; path = frameworks/ios/RedAntSDK.framework; sourceTree = "<group>"; };
+		ACA3850306B31FE9A34C162A9D0FF1FB /* Pods-ClientTests.firefoxbeta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ClientTests.firefoxbeta.xcconfig"; sourceTree = "<group>"; };
+		B061E39D50A0F5A3B10DAD482B8D790B /* Pods_Client.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Client.framework; path = "Pods-Client.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B062DE04135CE13D580955B32561E2EC /* Pods-ClientTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ClientTests.release.xcconfig"; sourceTree = "<group>"; };
+		B6D94ADC074F02D436FF88814C684311 /* Pods-Client-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Client-umbrella.h"; sourceTree = "<group>"; };
+		B7BBC0C505EA43470C27692496D0140B /* Pods-ClientTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ClientTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B943F5B2426E58FBF49504D49E5F12E9 /* KissXML-iOS10.3-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KissXML-iOS10.3-dummy.m"; sourceTree = "<group>"; };
+		C12264A331DCCF952014A1491007F22B /* NSString+DDXML.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+DDXML.m"; path = "KissXML/Categories/NSString+DDXML.m"; sourceTree = "<group>"; };
+		C1E718663C3394A66A554111ADDA48D3 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncSocket.h; path = Source/GCD/GCDAsyncSocket.h; sourceTree = "<group>"; };
+		C56991B4C82A6766FAB481BDD34EC3D2 /* CocoaAsyncSocket-iOS10.3-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaAsyncSocket-iOS10.3-dummy.m"; sourceTree = "<group>"; };
+		C5E06206E2ACF08F5899CE4A487AF114 /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CocoaAsyncSocket.framework; path = "CocoaAsyncSocket-iOS10.3.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C60827ADB3518C6A1CCABC610D67A3D2 /* Pods-ClientTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ClientTests.modulemap"; sourceTree = "<group>"; };
+		C75F8DDA09C12815E7475CB92A50EB79 /* Pods-Client.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Client.debug.xcconfig"; sourceTree = "<group>"; };
+		C7F4A1A2694C5CC99E2E3E42062DA30F /* Pods-Client-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Client-frameworks.sh"; sourceTree = "<group>"; };
+		C9F9BE3E6783D219B4D6CCEA4D02CEB8 /* Pods-Tunnel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tunnel-umbrella.h"; sourceTree = "<group>"; };
+		CBD0BFC116CCC232619D22BF95BC1AB0 /* Pods-ClientTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ClientTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CC5739C659EFC4DF3CE5D27397267001 /* CocoaAsyncSocket-iOS12.0-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CocoaAsyncSocket-iOS12.0-umbrella.h"; path = "../CocoaAsyncSocket-iOS12.0/CocoaAsyncSocket-iOS12.0-umbrella.h"; sourceTree = "<group>"; };
+		CE4238444F7B6295E7457330E7700647 /* KissXML-iOS10.3-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KissXML-iOS10.3-prefix.pch"; sourceTree = "<group>"; };
+		D2346794227278721F1BCB79229B1B92 /* Pods-Tunnel-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tunnel-resources.sh"; sourceTree = "<group>"; };
+		D463052DF380E9F778C1DE7E54DBC502 /* Pods-Tunnel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tunnel.debug.xcconfig"; sourceTree = "<group>"; };
+		DC6504F9A5A934372BD7FB289F84D967 /* KissXML-iOS10.3-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KissXML-iOS10.3-umbrella.h"; sourceTree = "<group>"; };
+		DD82C2EE11B54BA6EB607ADE162DF3E8 /* Pods-Tunnel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Tunnel.modulemap"; sourceTree = "<group>"; };
+		E2FF9A1E1A7062BBFCDB1FC504956A32 /* Pods-Client-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Client-acknowledgements.plist"; sourceTree = "<group>"; };
+		E672EF5269A3B901C2A38DF1B10A2E4A /* Pods-Client-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Client-dummy.m"; sourceTree = "<group>"; };
+		E856395EC027D51C04EBE65F8C31F49D /* KissXML-iOS12.0.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "KissXML-iOS12.0.xcconfig"; path = "../KissXML-iOS12.0/KissXML-iOS12.0.xcconfig"; sourceTree = "<group>"; };
+		EE4424458E82519121338D8F53C47199 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../CocoaAsyncSocket-iOS12.0/Info.plist"; sourceTree = "<group>"; };
+		EFE940504C9962D4B7B8BF8F1A0EA224 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F50199846BA4EAA8956CA0F59568AEC9 /* Pods-ClientTests.firefox.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ClientTests.firefox.xcconfig"; sourceTree = "<group>"; };
+		F5AFEFD25C489FC7664BCC164734AC2B /* Pods_ClientTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ClientTests.framework; path = "Pods-ClientTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBD3DBD75618C7517389A542D15982A5 /* Pods-Client.fennec.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Client.fennec.xcconfig"; sourceTree = "<group>"; };
+		FF1986CABC40C87EE142F77CBBFAB610 /* Pods-ClientTests.fennec.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ClientTests.fennec.xcconfig"; sourceTree = "<group>"; };
+		FF7AA6F01B8243CF1D3AD8504DEDDC83 /* Pods-Tunnel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tunnel-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0801D30C3B26100910811C7743C5BD7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B871A9FFAD7B4C110A4E62324C96BDB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2352B18D1D9ACBD66EF2E920DEDAFFAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73B5FCA6646F32C2875CFC8F0925E9F0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64E1E291A03B541FCD4A19894DECB148 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B32325B74F63EF181D0C3BC9BE9839D /* CFNetwork.framework in Frameworks */,
+				A78C6B803416EBCCE9CC113D1901D203 /* Foundation.framework in Frameworks */,
+				7DD1E2A3EE560AF589CDECA852916911 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84348D416FE31D2DE3E31C1EC046D263 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14093D343551BEE28E57ED998149CE97 /* CFNetwork.framework in Frameworks */,
+				7E0C52396C20FAB048CDE97850F03091 /* Foundation.framework in Frameworks */,
+				F22195C270E9201CFDAB61EADE465A44 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A79B9FAA7F16FADC062AFDF68A29BA76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F5C5517C5BF55D02C0F8937B4AE09EA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC6CFEF072DFC1237CDAB37560EE6112 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E7BE3D0A4DB458BA157B6CE4E5B4FDB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBBA69DE905E8B5DA91BD436623E42F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D16D03004E3F8CEB3DB16AB237B8DCA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D6D888213905F34217EF1880BE2758BA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1C6EDCCE3FB5BDF71EAF760A4E423830 /* Pods-Client */ = {
+			isa = PBXGroup;
+			children = (
+				61FC0F2AD727DB05E4694D0FCB02CBCD /* Info.plist */,
+				A3F568818D0D21B03494C83B98DCE2E5 /* Pods-Client.modulemap */,
+				124538BB9EFCDC7E25D8A546878F712A /* Pods-Client-acknowledgements.markdown */,
+				E2FF9A1E1A7062BBFCDB1FC504956A32 /* Pods-Client-acknowledgements.plist */,
+				E672EF5269A3B901C2A38DF1B10A2E4A /* Pods-Client-dummy.m */,
+				C7F4A1A2694C5CC99E2E3E42062DA30F /* Pods-Client-frameworks.sh */,
+				2F1DDEEEE7C38E36CF4747789D3DFA69 /* Pods-Client-resources.sh */,
+				B6D94ADC074F02D436FF88814C684311 /* Pods-Client-umbrella.h */,
+				C75F8DDA09C12815E7475CB92A50EB79 /* Pods-Client.debug.xcconfig */,
+				FBD3DBD75618C7517389A542D15982A5 /* Pods-Client.fennec.xcconfig */,
+				6117348AA49DA35FB52D5F016D1409CB /* Pods-Client.fennec_enterprise.xcconfig */,
+				0CAF327D822A194737B8E18AC9FC6423 /* Pods-Client.firefox.xcconfig */,
+				99795A99B85F65A5E1EA8B4A65EBAF1B /* Pods-Client.firefoxbeta.xcconfig */,
+				3A54E60AA98F1EF929E17CA96C2A4FEF /* Pods-Client.release.xcconfig */,
+			);
+			name = "Pods-Client";
+			path = "Target Support Files/Pods-Client";
+			sourceTree = "<group>";
+		};
+		226FFD6BABC86BA29ED03B3052DE014A /* RedAntSDK */ = {
+			isa = PBXGroup;
+			children = (
+				85D1B01C8F21894A511A3D64EE2F6031 /* Frameworks */,
+			);
+			name = RedAntSDK;
+			path = RedAntSDK;
+			sourceTree = "<group>";
+		};
+		29900F2A250EA08BCB805B093FF9E189 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5EC457BF3FB64299E0811BE93625742 /* CocoaAsyncSocket */,
+				7A7ABA6C0364260BD6D24BDAFD447A7A /* KissXML */,
+				226FFD6BABC86BA29ED03B3052DE014A /* RedAntSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3144BC651CA2FB672496828E71402350 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5E06206E2ACF08F5899CE4A487AF114 /* CocoaAsyncSocket.framework */,
+				6F32820B631CF2959717A80F471BA9A0 /* CocoaAsyncSocket.framework */,
+				5EC591FC2586E0EB021D27588A205190 /* KissXML.framework */,
+				117CDC3279B1325B49B3DD6481E4A41C /* KissXML.framework */,
+				B061E39D50A0F5A3B10DAD482B8D790B /* Pods_Client.framework */,
+				F5AFEFD25C489FC7664BCC164734AC2B /* Pods_ClientTests.framework */,
+				115D143258324B76364EE11D039AF8B5 /* Pods_Tunnel.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E86936FE4048DE08689BF41EB696E77 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				16E0865E91EEA7969A8BE6279F4ACAE4 /* Info.plist */,
+				27790D71C714A75F58FF36ED90368130 /* Info.plist */,
+				930D2EC895A2F9BE2B887265EF810D17 /* KissXML-iOS10.3.modulemap */,
+				509B2B9150133D612EBBED4060865E0B /* KissXML-iOS10.3.xcconfig */,
+				B943F5B2426E58FBF49504D49E5F12E9 /* KissXML-iOS10.3-dummy.m */,
+				CE4238444F7B6295E7457330E7700647 /* KissXML-iOS10.3-prefix.pch */,
+				DC6504F9A5A934372BD7FB289F84D967 /* KissXML-iOS10.3-umbrella.h */,
+				A9440A4F8C41F52611FCB6C6FDF083C9 /* KissXML-iOS12.0.modulemap */,
+				E856395EC027D51C04EBE65F8C31F49D /* KissXML-iOS12.0.xcconfig */,
+				3ADD0E43E5B108464B3A95D4DD5CE33B /* KissXML-iOS12.0-dummy.m */,
+				813812A08CF5CD974E969FA39CE3FB47 /* KissXML-iOS12.0-prefix.pch */,
+				6D7AD57F0437BADA436FB43D6943669E /* KissXML-iOS12.0-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KissXML-iOS10.3";
+			sourceTree = "<group>";
+		};
+		6788A5520A261ECC0B40EA935D7D3D3F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D702C6BF951139D468A3FE790990C34 /* CocoaAsyncSocket-iOS10.3.modulemap */,
+				1E2558A0BC62DA1125E6636FE23B2CBE /* CocoaAsyncSocket-iOS10.3.xcconfig */,
+				C56991B4C82A6766FAB481BDD34EC3D2 /* CocoaAsyncSocket-iOS10.3-dummy.m */,
+				020361E37C329153BDCFBE9D6BABE857 /* CocoaAsyncSocket-iOS10.3-prefix.pch */,
+				7AEDF22A72034B04261BD0CBFD367316 /* CocoaAsyncSocket-iOS10.3-umbrella.h */,
+				06EDF0193D134B0905F6C8FB77817B6F /* CocoaAsyncSocket-iOS12.0.modulemap */,
+				478DBE60FBD96E42F951788DD66D895E /* CocoaAsyncSocket-iOS12.0.xcconfig */,
+				794FE532136D150CCFACC150831B6E88 /* CocoaAsyncSocket-iOS12.0-dummy.m */,
+				03A110CA6063632023C7778009485E56 /* CocoaAsyncSocket-iOS12.0-prefix.pch */,
+				CC5739C659EFC4DF3CE5D27397267001 /* CocoaAsyncSocket-iOS12.0-umbrella.h */,
+				407E818C12CFD67C8C748C3744CAA5E4 /* Info.plist */,
+				EE4424458E82519121338D8F53C47199 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CocoaAsyncSocket-iOS10.3";
+			sourceTree = "<group>";
+		};
+		7A7ABA6C0364260BD6D24BDAFD447A7A /* KissXML */ = {
+			isa = PBXGroup;
+			children = (
+				17539480593B7FD9411A9B6A28894897 /* DDXML.h */,
+				9CCFF9DF93D1E0FDB4B400B2E45C78BC /* DDXMLDocument.h */,
+				82A7DEF742123137FF3CEE08AA131873 /* DDXMLDocument.m */,
+				218125A959299878A8F5EEDFB148BB25 /* DDXMLElement.h */,
+				8DA704E7FC06549A510A88589A037E00 /* DDXMLElement.m */,
+				452FA5DB70A0DB426DD52CD001997C0A /* DDXMLElementAdditions.h */,
+				5EE6B6EEB22B50487EE34C81991847B3 /* DDXMLElementAdditions.m */,
+				7B071DCEC95C540B9B82B7E1F4678C77 /* DDXMLNode.h */,
+				76AAA896236923C404DDFE65BCE3FBCC /* DDXMLNode.m */,
+				4F45EA1E6953EB1312B685BACFF002D0 /* DDXMLPrivate.h */,
+				42CCAACF3D0C30FE68FBC038A23B01A1 /* KissXML.h */,
+				0AFA6C2102D934B9EB62B48260E791F6 /* NSString+DDXML.h */,
+				C12264A331DCCF952014A1491007F22B /* NSString+DDXML.m */,
+				5E86936FE4048DE08689BF41EB696E77 /* Support Files */,
+			);
+			name = KissXML;
+			path = KissXML;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				29900F2A250EA08BCB805B093FF9E189 /* Pods */,
+				3144BC651CA2FB672496828E71402350 /* Products */,
+				8193A6FB22165EFB46F37963E2B3C156 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8193A6FB22165EFB46F37963E2B3C156 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1C6EDCCE3FB5BDF71EAF760A4E423830 /* Pods-Client */,
+				A1A368B49FD084EA1FCBD542C8BDC9B0 /* Pods-ClientTests */,
+				94D66379026CDAFE08DC3709F7383633 /* Pods-Tunnel */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		85D1B01C8F21894A511A3D64EE2F6031 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A98FA14DD9AEA45F20A676BEEEEDD6AB /* RedAntSDK.framework */,
+				7F435C00916118F1CED13AADF9484C6D /* ShadowPath.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		94D66379026CDAFE08DC3709F7383633 /* Pods-Tunnel */ = {
+			isa = PBXGroup;
+			children = (
+				08093B2061A19642C16B16FDA1E66D58 /* Info.plist */,
+				DD82C2EE11B54BA6EB607ADE162DF3E8 /* Pods-Tunnel.modulemap */,
+				6B65DE991E55F20829B585C1A39E5BA1 /* Pods-Tunnel-acknowledgements.markdown */,
+				885B85ED312B331CD54ECFB32FCADACD /* Pods-Tunnel-acknowledgements.plist */,
+				FF7AA6F01B8243CF1D3AD8504DEDDC83 /* Pods-Tunnel-dummy.m */,
+				D2346794227278721F1BCB79229B1B92 /* Pods-Tunnel-resources.sh */,
+				C9F9BE3E6783D219B4D6CCEA4D02CEB8 /* Pods-Tunnel-umbrella.h */,
+				D463052DF380E9F778C1DE7E54DBC502 /* Pods-Tunnel.debug.xcconfig */,
+				9707B6ED51EBB104D3CB5013FC803450 /* Pods-Tunnel.fennec.xcconfig */,
+				2BA8DECF1B1FA5DBD25451D5C038BF8A /* Pods-Tunnel.fennec_enterprise.xcconfig */,
+				1B58785D16976C1C33184EAA73B50E2E /* Pods-Tunnel.firefox.xcconfig */,
+				0696F26F9EF0A6309DCE4EC47ADE5AFB /* Pods-Tunnel.firefoxbeta.xcconfig */,
+				A017D6CB8420E9754962C279ACBF9C80 /* Pods-Tunnel.release.xcconfig */,
+			);
+			name = "Pods-Tunnel";
+			path = "Target Support Files/Pods-Tunnel";
+			sourceTree = "<group>";
+		};
+		A1A368B49FD084EA1FCBD542C8BDC9B0 /* Pods-ClientTests */ = {
+			isa = PBXGroup;
+			children = (
+				EFE940504C9962D4B7B8BF8F1A0EA224 /* Info.plist */,
+				C60827ADB3518C6A1CCABC610D67A3D2 /* Pods-ClientTests.modulemap */,
+				1A70203CCA7571E28669C98DF57B6ED3 /* Pods-ClientTests-acknowledgements.markdown */,
+				CBD0BFC116CCC232619D22BF95BC1AB0 /* Pods-ClientTests-acknowledgements.plist */,
+				554FDE24E9BA3B2F2B76A906CE398D01 /* Pods-ClientTests-dummy.m */,
+				8C01386384A185D0E13B2B40B4F08733 /* Pods-ClientTests-frameworks.sh */,
+				432AA88C314D64685FDCE0B201C1EC56 /* Pods-ClientTests-resources.sh */,
+				3A09720E15239FC41C8232C7B9BDBDF4 /* Pods-ClientTests-umbrella.h */,
+				B7BBC0C505EA43470C27692496D0140B /* Pods-ClientTests.debug.xcconfig */,
+				FF1986CABC40C87EE142F77CBBFAB610 /* Pods-ClientTests.fennec.xcconfig */,
+				6D35BC3252E8FC5E654767DA2CA0C8A9 /* Pods-ClientTests.fennec_enterprise.xcconfig */,
+				F50199846BA4EAA8956CA0F59568AEC9 /* Pods-ClientTests.firefox.xcconfig */,
+				ACA3850306B31FE9A34C162A9D0FF1FB /* Pods-ClientTests.firefoxbeta.xcconfig */,
+				B062DE04135CE13D580955B32561E2EC /* Pods-ClientTests.release.xcconfig */,
+			);
+			name = "Pods-ClientTests";
+			path = "Target Support Files/Pods-ClientTests";
+			sourceTree = "<group>";
+		};
+		D6D888213905F34217EF1880BE2758BA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A847C3B26F9C9E99A5ACEACF501F86DD /* CFNetwork.framework */,
+				9E3725257C79D0C80F87B9E2B291C17A /* Foundation.framework */,
+				50F6DD994291AA39A94BEECAFAF0D785 /* Security.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E5EC457BF3FB64299E0811BE93625742 /* CocoaAsyncSocket */ = {
+			isa = PBXGroup;
+			children = (
+				C1E718663C3394A66A554111ADDA48D3 /* GCDAsyncSocket.h */,
+				262ECF904E7C4825E0F1B0A450319465 /* GCDAsyncSocket.m */,
+				4CE0CFF9D6022136558098AF88887F65 /* GCDAsyncUdpSocket.h */,
+				67475D402307B547890DC5761D327FC6 /* GCDAsyncUdpSocket.m */,
+				6788A5520A261ECC0B40EA935D7D3D3F /* Support Files */,
+			);
+			name = CocoaAsyncSocket;
+			path = CocoaAsyncSocket;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6CAADE54A289CCF3212F2EDAFB5C5937 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CB6E66405D8A7B97FD1A8112D9FB592 /* Pods-Tunnel-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CC0AE5AFE97F1A83DAFC68780708B6F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAB4FA359C66F1356CFAE9CE5780864F /* CocoaAsyncSocket-iOS12.0-umbrella.h in Headers */,
+				471A46DD5D66398C51299F2DBAFD54CB /* GCDAsyncSocket.h in Headers */,
+				AE016873508573CD64AED16B9F2E118E /* GCDAsyncUdpSocket.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D4AF47CE9148C6F11F3779122B4BA43 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0FBE9395A9BD6112722A8241B2E215A /* DDXML.h in Headers */,
+				050D2469EB1C3EA5BE63FC16E2F45E0D /* DDXMLDocument.h in Headers */,
+				E5EA9A8030F387D284F92EA0CF44E959 /* DDXMLElement.h in Headers */,
+				C9275ED700D8938EB2C1A683AC483F95 /* DDXMLElementAdditions.h in Headers */,
+				F1B24D0DD5192BD878E7F6DBE64EB44F /* DDXMLNode.h in Headers */,
+				2490669285F6071CE02A1DC471D94902 /* DDXMLPrivate.h in Headers */,
+				D916EDC53E0A49F0C4BFA20DA7D8A54F /* KissXML-iOS10.3-umbrella.h in Headers */,
+				CF0E5A43F216C7024919BF219DCA549A /* KissXML.h in Headers */,
+				4B849B569EB357FCB20E6E89552DEA4A /* NSString+DDXML.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3F6D6AED9BA5573D62111DD0BBAEA79 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72FDA2054EDA9357A916DB4B4286914D /* CocoaAsyncSocket-iOS10.3-umbrella.h in Headers */,
+				A8489437BA702208BCA469D74B806AE4 /* GCDAsyncSocket.h in Headers */,
+				EA081A169902E3CFF523803928FAF6D0 /* GCDAsyncUdpSocket.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D124F11DEE9057941D25B0A81A2431F9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48BE0F9487C6990E2F0C0E98160F355D /* Pods-ClientTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA67C85350B925E5BDA8EE2A4F7994A6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90AAC4BF412C053F0D6AB07504F1D54B /* DDXML.h in Headers */,
+				561F3E9A5006DBF9BB854D57E26CBD50 /* DDXMLDocument.h in Headers */,
+				64F4029569B8D0240F5410B58DAF3292 /* DDXMLElement.h in Headers */,
+				58DC0D4B2BA2531794AEDC279039CD14 /* DDXMLElementAdditions.h in Headers */,
+				75E7FC1BF905FE2A8945919A555842BD /* DDXMLNode.h in Headers */,
+				95FECDAE05FD26229AB833BF9D6A721A /* DDXMLPrivate.h in Headers */,
+				1C1293129FF55E90B064CFE4D05AE189 /* KissXML-iOS12.0-umbrella.h in Headers */,
+				64BEC331BADDB94CAC04957E00F2237C /* KissXML.h in Headers */,
+				2FCACEB0D96947315D9D95A798DE1EA9 /* NSString+DDXML.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDE7D0BB121AF51F4551F7CB3AB9D0F7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61FE6EFD2066876394D7C4AD9ECBF991 /* Pods-Client-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3FBD0D7038A1FD07437E4D22E74A383E /* CocoaAsyncSocket-iOS10.3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E26B058CE351FBB25CCC2AE394400261 /* Build configuration list for PBXNativeTarget "CocoaAsyncSocket-iOS10.3" */;
+			buildPhases = (
+				EFC5FDB7B6F0D64E7600248B44C4B39E /* Sources */,
+				64E1E291A03B541FCD4A19894DECB148 /* Frameworks */,
+				B3F6D6AED9BA5573D62111DD0BBAEA79 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CocoaAsyncSocket-iOS10.3";
+			productName = "CocoaAsyncSocket-iOS10.3";
+			productReference = C5E06206E2ACF08F5899CE4A487AF114 /* CocoaAsyncSocket.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4B726E6666DCF75A0C8C7082CF8780A1 /* Pods-Client */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77F66B13A8245830BEB24A2C85A02516 /* Build configuration list for PBXNativeTarget "Pods-Client" */;
+			buildPhases = (
+				4ADEAAB9491CD599EDF5B07074BE29AA /* Sources */,
+				2352B18D1D9ACBD66EF2E920DEDAFFAB /* Frameworks */,
+				EDE7D0BB121AF51F4551F7CB3AB9D0F7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C111D6B8DE2217CE1AAD4CAB60773B09 /* PBXTargetDependency */,
+				6B94D0AFDE05E75D9BEECB5713C52B33 /* PBXTargetDependency */,
+				BFECABFF43A4D3EFAE1BC94A33719155 /* PBXTargetDependency */,
+				CAC812EDA8A24E05AF4CD395C8E53B7B /* PBXTargetDependency */,
+			);
+			name = "Pods-Client";
+			productName = "Pods-Client";
+			productReference = B061E39D50A0F5A3B10DAD482B8D790B /* Pods_Client.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5760E7CAFEE1766C1810DF277241A1B1 /* Pods-ClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDF25BA227D4F001DBC73CFA85CFF978 /* Build configuration list for PBXNativeTarget "Pods-ClientTests" */;
+			buildPhases = (
+				16A61056F47788662AFBD52DA79BC1A9 /* Sources */,
+				A79B9FAA7F16FADC062AFDF68A29BA76 /* Frameworks */,
+				D124F11DEE9057941D25B0A81A2431F9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6CD46F481ECB1118DA1E3E6C6BD7E6A /* PBXTargetDependency */,
+			);
+			name = "Pods-ClientTests";
+			productName = "Pods-ClientTests";
+			productReference = F5AFEFD25C489FC7664BCC164734AC2B /* Pods_ClientTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6EEF5040CD5D106EFCB7845B2D88B081 /* KissXML-iOS10.3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A42381BCCF8FF435878D71B3A7050C92 /* Build configuration list for PBXNativeTarget "KissXML-iOS10.3" */;
+			buildPhases = (
+				491268E79A294C377D334126316188F7 /* Sources */,
+				DBBA69DE905E8B5DA91BD436623E42F2 /* Frameworks */,
+				9D4AF47CE9148C6F11F3779122B4BA43 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KissXML-iOS10.3";
+			productName = "KissXML-iOS10.3";
+			productReference = 5EC591FC2586E0EB021D27588A205190 /* KissXML.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9B99484990A0B6A7BB5D138B404470C5 /* CocoaAsyncSocket-iOS12.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CD9E29909860B390CB25D773035E716 /* Build configuration list for PBXNativeTarget "CocoaAsyncSocket-iOS12.0" */;
+			buildPhases = (
+				9C2D78A9126C2E3DA281CAA383761C72 /* Sources */,
+				84348D416FE31D2DE3E31C1EC046D263 /* Frameworks */,
+				6CC0AE5AFE97F1A83DAFC68780708B6F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CocoaAsyncSocket-iOS12.0";
+			productName = "CocoaAsyncSocket-iOS12.0";
+			productReference = 6F32820B631CF2959717A80F471BA9A0 /* CocoaAsyncSocket.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ABE75B7C926BB7443F33474AC36D6AD9 /* Pods-Tunnel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F6FA4CEBD0F0873C16FF750DEAB5ADC /* Build configuration list for PBXNativeTarget "Pods-Tunnel" */;
+			buildPhases = (
+				249181908014EC3A7695AFF1CE690B68 /* Sources */,
+				CC6CFEF072DFC1237CDAB37560EE6112 /* Frameworks */,
+				6CAADE54A289CCF3212F2EDAFB5C5937 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F6198E7DD4B46E905D14FA6279FCE76 /* PBXTargetDependency */,
+				0FB1774FDC061FC85E0175139A2B66D5 /* PBXTargetDependency */,
+			);
+			name = "Pods-Tunnel";
+			productName = "Pods-Tunnel";
+			productReference = 115D143258324B76364EE11D039AF8B5 /* Pods_Tunnel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EAAF10FD0950431FEE03601BA2150897 /* KissXML-iOS12.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 915C27D36C4A8E45C72299BCB76CAFC5 /* Build configuration list for PBXNativeTarget "KissXML-iOS12.0" */;
+			buildPhases = (
+				0252865131101410E72AF931812EC319 /* Sources */,
+				0801D30C3B26100910811C7743C5BD7A /* Frameworks */,
+				EA67C85350B925E5BDA8EE2A4F7994A6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KissXML-iOS12.0";
+			productName = "KissXML-iOS12.0";
+			productReference = 117CDC3279B1325B49B3DD6481E4A41C /* KissXML.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 3144BC651CA2FB672496828E71402350 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FBD0D7038A1FD07437E4D22E74A383E /* CocoaAsyncSocket-iOS10.3 */,
+				9B99484990A0B6A7BB5D138B404470C5 /* CocoaAsyncSocket-iOS12.0 */,
+				6EEF5040CD5D106EFCB7845B2D88B081 /* KissXML-iOS10.3 */,
+				EAAF10FD0950431FEE03601BA2150897 /* KissXML-iOS12.0 */,
+				4B726E6666DCF75A0C8C7082CF8780A1 /* Pods-Client */,
+				5760E7CAFEE1766C1810DF277241A1B1 /* Pods-ClientTests */,
+				ABE75B7C926BB7443F33474AC36D6AD9 /* Pods-Tunnel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0252865131101410E72AF931812EC319 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C56CE179C3095A9A9E02DB3E328FDB23 /* DDXMLDocument.m in Sources */,
+				282FE63787947820F9F497F779740CB5 /* DDXMLElement.m in Sources */,
+				0D8050A2FAAC39B80F3CC317107D1EF8 /* DDXMLElementAdditions.m in Sources */,
+				A6339E14DCF6D30E6A024542D7606A64 /* DDXMLNode.m in Sources */,
+				7527A63905EF492F4F75D735211D3AB1 /* KissXML-iOS12.0-dummy.m in Sources */,
+				5B7E9D4CACDF6041939E6DAD85780570 /* NSString+DDXML.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16A61056F47788662AFBD52DA79BC1A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83766252E17C693B54562CE5C69B0546 /* Pods-ClientTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		249181908014EC3A7695AFF1CE690B68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				054E531125EA6D840536D3B48CB8B68E /* Pods-Tunnel-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		491268E79A294C377D334126316188F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20DA25D485580E4D59E2D9F382324A87 /* DDXMLDocument.m in Sources */,
+				F8B735A989B64B7222F12B6CDD986596 /* DDXMLElement.m in Sources */,
+				1DA65055CE4FC613915D62554DAC52A9 /* DDXMLElementAdditions.m in Sources */,
+				CF9618630C467005C8626F76B15501F0 /* DDXMLNode.m in Sources */,
+				3AEBE8AD23F464B3018911346BBE0FD0 /* KissXML-iOS10.3-dummy.m in Sources */,
+				6FDBB50B6A10F694618C99788ACD38FF /* NSString+DDXML.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ADEAAB9491CD599EDF5B07074BE29AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA896E46F99C1BF7BBDAFC1E9B6453D9 /* Pods-Client-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C2D78A9126C2E3DA281CAA383761C72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94C375757BFDF505620ED9588E5B854C /* CocoaAsyncSocket-iOS12.0-dummy.m in Sources */,
+				1A420E8A23F0FAED6FDFAE668E566090 /* GCDAsyncSocket.m in Sources */,
+				AD23BD8E204142A1432785896241544E /* GCDAsyncUdpSocket.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFC5FDB7B6F0D64E7600248B44C4B39E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDD66516BC246B470B1CA9E75F78847C /* CocoaAsyncSocket-iOS10.3-dummy.m in Sources */,
+				2946CCB8B1675CFFCC1DAE0C7B113481 /* GCDAsyncSocket.m in Sources */,
+				9397245E7117A3B18CB54F57B8296652 /* GCDAsyncUdpSocket.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0F6198E7DD4B46E905D14FA6279FCE76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CocoaAsyncSocket-iOS12.0";
+			target = 9B99484990A0B6A7BB5D138B404470C5 /* CocoaAsyncSocket-iOS12.0 */;
+			targetProxy = 505815323379EE79A95B7263F31FD52C /* PBXContainerItemProxy */;
+		};
+		0FB1774FDC061FC85E0175139A2B66D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "KissXML-iOS12.0";
+			target = EAAF10FD0950431FEE03601BA2150897 /* KissXML-iOS12.0 */;
+			targetProxy = 04BF112BB07EF223A53744EBF40A6BB7 /* PBXContainerItemProxy */;
+		};
+		6B94D0AFDE05E75D9BEECB5713C52B33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CocoaAsyncSocket-iOS12.0";
+			target = 9B99484990A0B6A7BB5D138B404470C5 /* CocoaAsyncSocket-iOS12.0 */;
+			targetProxy = B1D05154D605B509C9581D71FD6567C4 /* PBXContainerItemProxy */;
+		};
+		BFECABFF43A4D3EFAE1BC94A33719155 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "KissXML-iOS10.3";
+			target = 6EEF5040CD5D106EFCB7845B2D88B081 /* KissXML-iOS10.3 */;
+			targetProxy = 0476E274FE2C0C767C61AA8D4F60AD80 /* PBXContainerItemProxy */;
+		};
+		C111D6B8DE2217CE1AAD4CAB60773B09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CocoaAsyncSocket-iOS10.3";
+			target = 3FBD0D7038A1FD07437E4D22E74A383E /* CocoaAsyncSocket-iOS10.3 */;
+			targetProxy = 4103D1DCA6BF068C58D1CD757FC59C21 /* PBXContainerItemProxy */;
+		};
+		C6CD46F481ECB1118DA1E3E6C6BD7E6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Client";
+			target = 4B726E6666DCF75A0C8C7082CF8780A1 /* Pods-Client */;
+			targetProxy = 701F4743EACAFE510BB5F13743926818 /* PBXContainerItemProxy */;
+		};
+		CAC812EDA8A24E05AF4CD395C8E53B7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "KissXML-iOS12.0";
+			target = EAAF10FD0950431FEE03601BA2150897 /* KissXML-iOS12.0 */;
+			targetProxy = 92175817DF40AAB2F62B3CFBB5C13A1F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		09E6235DDD60732A0A526E77AE224F24 /* Fennec_Enterprise */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BA8DECF1B1FA5DBD25451D5C038BF8A /* Pods-Tunnel.fennec_enterprise.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Tunnel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Tunnel/Pods-Tunnel.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Fennec_Enterprise;
+		};
+		0A59562B262D743379EED21C5A5BEB5E /* Firefox */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F50199846BA4EAA8956CA0F59568AEC9 /* Pods-ClientTests.firefox.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ClientTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ClientTests/Pods-ClientTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Firefox;
+		};
+		109FB70771FC691D5B68F56AD2CC1C83 /* Fennec_Enterprise */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D35BC3252E8FC5E654767DA2CA0C8A9 /* Pods-ClientTests.fennec_enterprise.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ClientTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ClientTests/Pods-ClientTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Fennec_Enterprise;
+		};
+		17E57D0836EE83C2F2DCA3583A80E6E7 /* Fennec */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBD3DBD75618C7517389A542D15982A5 /* Pods-Client.fennec.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Client/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Client/Pods-Client.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Fennec;
+		};
+		26062B06C4130939F3C93968471C0370 /* Firefox */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_FIREFOX=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Firefox;
+		};
+		27E391AA64C0C536A6C77F593DFF0B77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B062DE04135CE13D580955B32561E2EC /* Pods-ClientTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ClientTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ClientTests/Pods-ClientTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2CB9324B373F77A6AB985BA40CDF75BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D463052DF380E9F778C1DE7E54DBC502 /* Pods-Tunnel.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Tunnel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Tunnel/Pods-Tunnel.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2D0069DF564660B3755427F2AA1E8B83 /* Firefox */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CAF327D822A194737B8E18AC9FC6423 /* Pods-Client.firefox.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Client/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Client/Pods-Client.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Firefox;
+		};
+		3A26B9CCF297F77907D604415653FB12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C75F8DDA09C12815E7475CB92A50EB79 /* Pods-Client.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Client/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Client/Pods-Client.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		414CEC0F5329B1408CFFC7E11EC4B2C3 /* Fennec_Enterprise */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6117348AA49DA35FB52D5F016D1409CB /* Pods-Client.fennec_enterprise.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Client/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Client/Pods-Client.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Fennec_Enterprise;
+		};
+		41D80E52EB0EE91FAC633AF16586D4BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 509B2B9150133D612EBBED4060865E0B /* KissXML-iOS10.3.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KissXML-iOS10.3/KissXML-iOS10.3-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KissXML-iOS10.3/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KissXML-iOS10.3/KissXML-iOS10.3.modulemap";
+				PRODUCT_MODULE_NAME = KissXML;
+				PRODUCT_NAME = KissXML;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		48A323C1F1F6B33BED7E3806537FC5BF /* Firefox */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E856395EC027D51C04EBE65F8C31F49D /* KissXML-iOS12.0.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KissXML-iOS12.0/KissXML-iOS12.0-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KissXML-iOS12.0/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KissXML-iOS12.0/KissXML-iOS12.0.modulemap";
+				PRODUCT_MODULE_NAME = KissXML;
+				PRODUCT_NAME = KissXML;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Firefox;
+		};
+		48BE2B5247A31B97DC23015445AD60D1 /* Fennec */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9707B6ED51EBB104D3CB5013FC803450 /* Pods-Tunnel.fennec.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Tunnel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Tunnel/Pods-Tunnel.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Fennec;
+		};
+		4C298C5865A1BB6BF65D176AFB4A2214 /* Fennec_Enterprise */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E856395EC027D51C04EBE65F8C31F49D /* KissXML-iOS12.0.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KissXML-iOS12.0/KissXML-iOS12.0-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KissXML-iOS12.0/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KissXML-iOS12.0/KissXML-iOS12.0.modulemap";
+				PRODUCT_MODULE_NAME = KissXML;
+				PRODUCT_NAME = KissXML;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Fennec_Enterprise;
+		};
+		4E882DF3EC9F58046D544DBA89E253B3 /* FirefoxBeta */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99795A99B85F65A5E1EA8B4A65EBAF1B /* Pods-Client.firefoxbeta.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Client/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Client/Pods-Client.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = FirefoxBeta;
+		};
+		503E433C3E2CCCE9C3755AA3D70293FA /* FirefoxBeta */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACA3850306B31FE9A34C162A9D0FF1FB /* Pods-ClientTests.firefoxbeta.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ClientTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ClientTests/Pods-ClientTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = FirefoxBeta;
+		};
+		505E9D15122EDB36FF978D5D1801680C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A54E60AA98F1EF929E17CA96C2A4FEF /* Pods-Client.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Client/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Client/Pods-Client.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5A07A98F846A0A5669BE2A4D4241CEAD /* Fennec */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_FENNEC=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Fennec;
+		};
+		5B7905DC1B88283AEEC28889C860A181 /* FirefoxBeta */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0696F26F9EF0A6309DCE4EC47ADE5AFB /* Pods-Tunnel.firefoxbeta.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Tunnel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Tunnel/Pods-Tunnel.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = FirefoxBeta;
+		};
+		5D70E611A9FE3741F27E33A434E061A1 /* Firefox */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E2558A0BC62DA1125E6636FE23B2CBE /* CocoaAsyncSocket-iOS10.3.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaAsyncSocket-iOS10.3/CocoaAsyncSocket-iOS10.3-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaAsyncSocket-iOS10.3/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CocoaAsyncSocket-iOS10.3/CocoaAsyncSocket-iOS10.3.modulemap";
+				PRODUCT_MODULE_NAME = CocoaAsyncSocket;
+				PRODUCT_NAME = CocoaAsyncSocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Firefox;
+		};
+		5E3218843F9363555C3DAB158EE4E591 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 509B2B9150133D612EBBED4060865E0B /* KissXML-iOS10.3.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KissXML-iOS10.3/KissXML-iOS10.3-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KissXML-iOS10.3/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KissXML-iOS10.3/KissXML-iOS10.3.modulemap";
+				PRODUCT_MODULE_NAME = KissXML;
+				PRODUCT_NAME = KissXML;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		64A9E81640588B9575A6BC12D3AC0117 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E2558A0BC62DA1125E6636FE23B2CBE /* CocoaAsyncSocket-iOS10.3.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaAsyncSocket-iOS10.3/CocoaAsyncSocket-iOS10.3-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaAsyncSocket-iOS10.3/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CocoaAsyncSocket-iOS10.3/CocoaAsyncSocket-iOS10.3.modulemap";
+				PRODUCT_MODULE_NAME = CocoaAsyncSocket;
+				PRODUCT_NAME = CocoaAsyncSocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6830C1C4D69CF35C9DD86B712A5993EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E2558A0BC62DA1125E6636FE23B2CBE /* CocoaAsyncSocket-iOS10.3.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaAsyncSocket-iOS10.3/CocoaAsyncSocket-iOS10.3-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaAsyncSocket-iOS10.3/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CocoaAsyncSocket-iOS10.3/CocoaAsyncSocket-iOS10.3.modulemap";
+				PRODUCT_MODULE_NAME = CocoaAsyncSocket;
+				PRODUCT_NAME = CocoaAsyncSocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6F259B7377A9BA08548824C6AF06FB8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E856395EC027D51C04EBE65F8C31F49D /* KissXML-iOS12.0.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KissXML-iOS12.0/KissXML-iOS12.0-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KissXML-iOS12.0/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KissXML-iOS12.0/KissXML-iOS12.0.modulemap";
+				PRODUCT_MODULE_NAME = KissXML;
+				PRODUCT_NAME = KissXML;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		720CF08FFB9E5F60378DD183EAFE6D71 /* Firefox */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 509B2B9150133D612EBBED4060865E0B /* KissXML-iOS10.3.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KissXML-iOS10.3/KissXML-iOS10.3-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KissXML-iOS10.3/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KissXML-iOS10.3/KissXML-iOS10.3.modulemap";
+				PRODUCT_MODULE_NAME = KissXML;
+				PRODUCT_NAME = KissXML;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Firefox;
+		};
+		8875D9397EE56EB10A4D1AAE98F0D1C0 /* FirefoxBeta */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 509B2B9150133D612EBBED4060865E0B /* KissXML-iOS10.3.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KissXML-iOS10.3/KissXML-iOS10.3-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KissXML-iOS10.3/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KissXML-iOS10.3/KissXML-iOS10.3.modulemap";
+				PRODUCT_MODULE_NAME = KissXML;
+				PRODUCT_NAME = KissXML;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = FirefoxBeta;
+		};
+		8C724A5CB50F45EC61AD154D9F698544 /* FirefoxBeta */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E856395EC027D51C04EBE65F8C31F49D /* KissXML-iOS12.0.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KissXML-iOS12.0/KissXML-iOS12.0-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KissXML-iOS12.0/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KissXML-iOS12.0/KissXML-iOS12.0.modulemap";
+				PRODUCT_MODULE_NAME = KissXML;
+				PRODUCT_NAME = KissXML;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = FirefoxBeta;
+		};
+		900160414E70A64562ED0772BC5461DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 478DBE60FBD96E42F951788DD66D895E /* CocoaAsyncSocket-iOS12.0.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaAsyncSocket-iOS12.0/CocoaAsyncSocket-iOS12.0-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaAsyncSocket-iOS12.0/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CocoaAsyncSocket-iOS12.0/CocoaAsyncSocket-iOS12.0.modulemap";
+				PRODUCT_MODULE_NAME = CocoaAsyncSocket;
+				PRODUCT_NAME = CocoaAsyncSocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		94FFABC441A5F312B63E00F9EFC8FF84 /* Firefox */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B58785D16976C1C33184EAA73B50E2E /* Pods-Tunnel.firefox.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Tunnel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Tunnel/Pods-Tunnel.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Firefox;
+		};
+		968A72BDE98EEB26ADCB04FF6627F918 /* Fennec_Enterprise */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E2558A0BC62DA1125E6636FE23B2CBE /* CocoaAsyncSocket-iOS10.3.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaAsyncSocket-iOS10.3/CocoaAsyncSocket-iOS10.3-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaAsyncSocket-iOS10.3/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CocoaAsyncSocket-iOS10.3/CocoaAsyncSocket-iOS10.3.modulemap";
+				PRODUCT_MODULE_NAME = CocoaAsyncSocket;
+				PRODUCT_NAME = CocoaAsyncSocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Fennec_Enterprise;
+		};
+		9B1692643AC231034CDDB2BFCEE7DB34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A017D6CB8420E9754962C279ACBF9C80 /* Pods-Tunnel.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Tunnel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Tunnel/Pods-Tunnel.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9FD76CFB6BEFDF58432F6B176ECC4C53 /* Fennec */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 478DBE60FBD96E42F951788DD66D895E /* CocoaAsyncSocket-iOS12.0.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaAsyncSocket-iOS12.0/CocoaAsyncSocket-iOS12.0-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaAsyncSocket-iOS12.0/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CocoaAsyncSocket-iOS12.0/CocoaAsyncSocket-iOS12.0.modulemap";
+				PRODUCT_MODULE_NAME = CocoaAsyncSocket;
+				PRODUCT_NAME = CocoaAsyncSocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Fennec;
+		};
+		A54EA58DC18E7B6C242F0EB8A28CAE26 /* Fennec_Enterprise */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 509B2B9150133D612EBBED4060865E0B /* KissXML-iOS10.3.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KissXML-iOS10.3/KissXML-iOS10.3-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KissXML-iOS10.3/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KissXML-iOS10.3/KissXML-iOS10.3.modulemap";
+				PRODUCT_MODULE_NAME = KissXML;
+				PRODUCT_NAME = KissXML;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Fennec_Enterprise;
+		};
+		A7520CAFF83544737C90FD12705F7DC4 /* Fennec */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF1986CABC40C87EE142F77CBBFAB610 /* Pods-ClientTests.fennec.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ClientTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ClientTests/Pods-ClientTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Fennec;
+		};
+		A8F23020FC3E9C70028EE24087DCA1AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7BBC0C505EA43470C27692496D0140B /* Pods-ClientTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ClientTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ClientTests/Pods-ClientTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B4F35C7C2D066DA87C3C503EFF39E587 /* FirefoxBeta */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 478DBE60FBD96E42F951788DD66D895E /* CocoaAsyncSocket-iOS12.0.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaAsyncSocket-iOS12.0/CocoaAsyncSocket-iOS12.0-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaAsyncSocket-iOS12.0/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CocoaAsyncSocket-iOS12.0/CocoaAsyncSocket-iOS12.0.modulemap";
+				PRODUCT_MODULE_NAME = CocoaAsyncSocket;
+				PRODUCT_NAME = CocoaAsyncSocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = FirefoxBeta;
+		};
+		B9D96A451976D28CEA1741ABB32A69EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 478DBE60FBD96E42F951788DD66D895E /* CocoaAsyncSocket-iOS12.0.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaAsyncSocket-iOS12.0/CocoaAsyncSocket-iOS12.0-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaAsyncSocket-iOS12.0/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CocoaAsyncSocket-iOS12.0/CocoaAsyncSocket-iOS12.0.modulemap";
+				PRODUCT_MODULE_NAME = CocoaAsyncSocket;
+				PRODUCT_NAME = CocoaAsyncSocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CE6BB864FB202B78BB66ACCAACAA0513 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CF76A09C3B09DA1B0DB6FD5DB2C3A2A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D7DD7FC061F868CAB2EE31241F23E6BD /* Fennec */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 509B2B9150133D612EBBED4060865E0B /* KissXML-iOS10.3.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KissXML-iOS10.3/KissXML-iOS10.3-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KissXML-iOS10.3/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KissXML-iOS10.3/KissXML-iOS10.3.modulemap";
+				PRODUCT_MODULE_NAME = KissXML;
+				PRODUCT_NAME = KissXML;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Fennec;
+		};
+		DB5FAC5CB29E405EA70BBC56B16050E6 /* Fennec_Enterprise */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 478DBE60FBD96E42F951788DD66D895E /* CocoaAsyncSocket-iOS12.0.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaAsyncSocket-iOS12.0/CocoaAsyncSocket-iOS12.0-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaAsyncSocket-iOS12.0/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CocoaAsyncSocket-iOS12.0/CocoaAsyncSocket-iOS12.0.modulemap";
+				PRODUCT_MODULE_NAME = CocoaAsyncSocket;
+				PRODUCT_NAME = CocoaAsyncSocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Fennec_Enterprise;
+		};
+		DD76FB6E37067EE4C156F80543788E0E /* Fennec */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E856395EC027D51C04EBE65F8C31F49D /* KissXML-iOS12.0.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KissXML-iOS12.0/KissXML-iOS12.0-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KissXML-iOS12.0/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KissXML-iOS12.0/KissXML-iOS12.0.modulemap";
+				PRODUCT_MODULE_NAME = KissXML;
+				PRODUCT_NAME = KissXML;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Fennec;
+		};
+		E3062084254D3362CD9B228A96AEB895 /* FirefoxBeta */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E2558A0BC62DA1125E6636FE23B2CBE /* CocoaAsyncSocket-iOS10.3.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaAsyncSocket-iOS10.3/CocoaAsyncSocket-iOS10.3-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaAsyncSocket-iOS10.3/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CocoaAsyncSocket-iOS10.3/CocoaAsyncSocket-iOS10.3.modulemap";
+				PRODUCT_MODULE_NAME = CocoaAsyncSocket;
+				PRODUCT_NAME = CocoaAsyncSocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = FirefoxBeta;
+		};
+		E83A6F9D60A0F5A1CB9A0681D1382367 /* Firefox */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 478DBE60FBD96E42F951788DD66D895E /* CocoaAsyncSocket-iOS12.0.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaAsyncSocket-iOS12.0/CocoaAsyncSocket-iOS12.0-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaAsyncSocket-iOS12.0/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CocoaAsyncSocket-iOS12.0/CocoaAsyncSocket-iOS12.0.modulemap";
+				PRODUCT_MODULE_NAME = CocoaAsyncSocket;
+				PRODUCT_NAME = CocoaAsyncSocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Firefox;
+		};
+		EA2FCEF2872A444BFC996716CE300F08 /* Fennec */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E2558A0BC62DA1125E6636FE23B2CBE /* CocoaAsyncSocket-iOS10.3.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaAsyncSocket-iOS10.3/CocoaAsyncSocket-iOS10.3-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaAsyncSocket-iOS10.3/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CocoaAsyncSocket-iOS10.3/CocoaAsyncSocket-iOS10.3.modulemap";
+				PRODUCT_MODULE_NAME = CocoaAsyncSocket;
+				PRODUCT_NAME = CocoaAsyncSocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Fennec;
+		};
+		ECE49C21ABA16E4837339B76B62D35A1 /* FirefoxBeta */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_FIREFOX_BETA=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = FirefoxBeta;
+		};
+		F2B476259E7EF17830C751C8367E9AB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E856395EC027D51C04EBE65F8C31F49D /* KissXML-iOS12.0.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KissXML-iOS12.0/KissXML-iOS12.0-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KissXML-iOS12.0/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KissXML-iOS12.0/KissXML-iOS12.0.modulemap";
+				PRODUCT_MODULE_NAME = KissXML;
+				PRODUCT_NAME = KissXML;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F3CE88C6007AE04D6DA2B0C038B22419 /* Fennec_Enterprise */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_FENNEC_ENTERPRISE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Fennec_Enterprise;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF76A09C3B09DA1B0DB6FD5DB2C3A2A2 /* Debug */,
+				5A07A98F846A0A5669BE2A4D4241CEAD /* Fennec */,
+				F3CE88C6007AE04D6DA2B0C038B22419 /* Fennec_Enterprise */,
+				26062B06C4130939F3C93968471C0370 /* Firefox */,
+				ECE49C21ABA16E4837339B76B62D35A1 /* FirefoxBeta */,
+				CE6BB864FB202B78BB66ACCAACAA0513 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F6FA4CEBD0F0873C16FF750DEAB5ADC /* Build configuration list for PBXNativeTarget "Pods-Tunnel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CB9324B373F77A6AB985BA40CDF75BE /* Debug */,
+				48BE2B5247A31B97DC23015445AD60D1 /* Fennec */,
+				09E6235DDD60732A0A526E77AE224F24 /* Fennec_Enterprise */,
+				94FFABC441A5F312B63E00F9EFC8FF84 /* Firefox */,
+				5B7905DC1B88283AEEC28889C860A181 /* FirefoxBeta */,
+				9B1692643AC231034CDDB2BFCEE7DB34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77F66B13A8245830BEB24A2C85A02516 /* Build configuration list for PBXNativeTarget "Pods-Client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A26B9CCF297F77907D604415653FB12 /* Debug */,
+				17E57D0836EE83C2F2DCA3583A80E6E7 /* Fennec */,
+				414CEC0F5329B1408CFFC7E11EC4B2C3 /* Fennec_Enterprise */,
+				2D0069DF564660B3755427F2AA1E8B83 /* Firefox */,
+				4E882DF3EC9F58046D544DBA89E253B3 /* FirefoxBeta */,
+				505E9D15122EDB36FF978D5D1801680C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CD9E29909860B390CB25D773035E716 /* Build configuration list for PBXNativeTarget "CocoaAsyncSocket-iOS12.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9D96A451976D28CEA1741ABB32A69EB /* Debug */,
+				9FD76CFB6BEFDF58432F6B176ECC4C53 /* Fennec */,
+				DB5FAC5CB29E405EA70BBC56B16050E6 /* Fennec_Enterprise */,
+				E83A6F9D60A0F5A1CB9A0681D1382367 /* Firefox */,
+				B4F35C7C2D066DA87C3C503EFF39E587 /* FirefoxBeta */,
+				900160414E70A64562ED0772BC5461DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		915C27D36C4A8E45C72299BCB76CAFC5 /* Build configuration list for PBXNativeTarget "KissXML-iOS12.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F259B7377A9BA08548824C6AF06FB8A /* Debug */,
+				DD76FB6E37067EE4C156F80543788E0E /* Fennec */,
+				4C298C5865A1BB6BF65D176AFB4A2214 /* Fennec_Enterprise */,
+				48A323C1F1F6B33BED7E3806537FC5BF /* Firefox */,
+				8C724A5CB50F45EC61AD154D9F698544 /* FirefoxBeta */,
+				F2B476259E7EF17830C751C8367E9AB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A42381BCCF8FF435878D71B3A7050C92 /* Build configuration list for PBXNativeTarget "KissXML-iOS10.3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E3218843F9363555C3DAB158EE4E591 /* Debug */,
+				D7DD7FC061F868CAB2EE31241F23E6BD /* Fennec */,
+				A54EA58DC18E7B6C242F0EB8A28CAE26 /* Fennec_Enterprise */,
+				720CF08FFB9E5F60378DD183EAFE6D71 /* Firefox */,
+				8875D9397EE56EB10A4D1AAE98F0D1C0 /* FirefoxBeta */,
+				41D80E52EB0EE91FAC633AF16586D4BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDF25BA227D4F001DBC73CFA85CFF978 /* Build configuration list for PBXNativeTarget "Pods-ClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8F23020FC3E9C70028EE24087DCA1AE /* Debug */,
+				A7520CAFF83544737C90FD12705F7DC4 /* Fennec */,
+				109FB70771FC691D5B68F56AD2CC1C83 /* Fennec_Enterprise */,
+				0A59562B262D743379EED21C5A5BEB5E /* Firefox */,
+				503E433C3E2CCCE9C3755AA3D70293FA /* FirefoxBeta */,
+				27E391AA64C0C536A6C77F593DFF0B77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E26B058CE351FBB25CCC2AE394400261 /* Build configuration list for PBXNativeTarget "CocoaAsyncSocket-iOS10.3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6830C1C4D69CF35C9DD86B712A5993EA /* Debug */,
+				EA2FCEF2872A444BFC996716CE300F08 /* Fennec */,
+				968A72BDE98EEB26ADCB04FF6627F918 /* Fennec_Enterprise */,
+				5D70E611A9FE3741F27E33A434E061A1 /* Firefox */,
+				E3062084254D3362CD9B228A96AEB895 /* FirefoxBeta */,
+				64A9E81640588B9575A6BC12D3AC0117 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

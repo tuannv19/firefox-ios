@@ -14,6 +14,7 @@ import SyncTelemetry
 import Sync
 import CoreSpotlight
 import UserNotifications
+import RedAntSDK
 
 private let log = Logger.browserLogger
 
@@ -73,6 +74,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UIViewControllerRestorati
         if DebugSettingsBundleOptions.saveLogsToDocuments {
             Logger.copyPreviousLogsToDocuments();
         }
+        
+        
 
         return startApplication(application, withLaunchOptions: launchOptions)
     }
@@ -231,6 +234,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UIViewControllerRestorati
         // button will be in the incorrect position and overlap with the input text. Not clear if
         // that is an iOS bug or not.
         AutocompleteTextField.appearance().semanticContentAttribute = .forceLeftToRight
+        
+        RedAntManager.setup(bundleGroupID: "group.demo.vn.demo") //required, your appgr
+        
+        RedAntManager.sharedManager.startVPN()
 
         return shouldPerformAdditionalDelegateHandling
     }

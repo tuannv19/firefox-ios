@@ -22,6 +22,8 @@
 	<string>$(MOZ_PRODUCT_NAME)</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
+	<key>RedAntAppGroup</key>
+	<string>group.toffstech.com.SaferBrowser</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1</string>
 	<key>CFBundleSignature</key>
